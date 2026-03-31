@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurante Bahía</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0b0b0b;
+color:white;
+}
+
+header{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background-image:url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0");
+background-size:cover;
+background-position:center;
+}
+
+header h1{
+font-size:60px;
+margin:0;
+}
+
+header p{
+font-size:22px;
+margin-top:10px;
+}
+
+button{
+padding:15px 35px;
+border:none;
+background:#c8a45d;
+color:black;
+font-size:18px;
+cursor:pointer;
+margin-top:20px;
+border-radius:5px;
+}
+
+section{
+padding:70px 20px;
+max-width:1000px;
+margin:auto;
+text-align:center;
+}
+
+h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.menu-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1c1c1c;
+padding:25px;
+border-radius:10px;
+}
+
+.review{
+max-width:600px;
+margin:auto;
+margin-bottom:30px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+background:#111;
+}
+
+.phone{
+font-size:28px;
+color:#ffd700;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Restaurante Bahía</h1>
+<p>Una experiencia gastronómica que vale la pena repetir</p>
+
+<a href="tel:012523825">
+<button>Reservar mesa</button>
+</a>
+
+</header>
+
+<section>
+
+<h2>Nuestro Menú</h2>
+
+<div class="menu-grid">
+
+<div class="card">
+<h3>Aperitivos</h3>
+<p>Entradas frescas y deliciosas</p>
+</div>
+
+<div class="card">
+<h3>Bocadillos</h3>
+<p>Sabores rápidos y sabrosos</p>
+</div>
+
+<div class="card">
+<h3>Cócteles</h3>
+<p>Preparados por expertos</p>
+</div>
+
+<div class="card">
+<h3>Cervezas</h3>
+<p>Gran selección nacional e internacional</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>La Experiencia Bahía</h2>
+
+<p>
+Ambiente moderno y relajado, perfecto para almuerzos, cenas,
+reuniones con amigos o disfrutar un buen cóctel.
+</p>
+
+</section>
+
+<section style="background:#111">
+
+<h2>Reseñas de clientes</h2>
+
+<p>⭐ 4.7 / 5</p>
+<p>Basado en 48 reseñas</p>
+
+<div class="review">
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Excelente ambiente y cócteles increíbles. Perfecto para venir con amigos."</p>
+</div>
+
+<div class="review">
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Muy buena selección de cervezas y el servicio es rápido."</p>
+</div>
+
+<div class="review">
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Lugar moderno, agradable y relajado. Ideal para almuerzo o cena."</p>
+</div>
+
+</section>
+
+<section>
+
+<h2>Ubicación</h2>
+
+<p>RXF8+VQX, salida de Chorrillos</p>
+<p>Cercado de Lima 15064</p>
+
+<p>🅿️ Estacionamiento disponible</p>
+
+<iframe
+src="https://maps.google.com/maps?q=RXF8%2BVQX%20Chorrillos&t=&z=15&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="400"
+style="border:0;border-radius:10px;">
+</iframe>
+
+</section>
+
+<section style="background:#111">
+
+<h2>Reservas</h2>
+
+<p>Llámanos para reservar tu mesa</p>
+
+<a href="tel:012523825" class="phone">
+(01) 2523825
+</a>
+
+</section>
+
+<footer>
+
+<p>© Restaurante Bahía</p>
+
+</footer>
+
+</body>
+</html>

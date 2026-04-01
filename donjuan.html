@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<title>Don Juan Plazuela | Restaurante Peruano en Chiclayo</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:Poppins;
+background:#111;
+color:white;
+}
+
+header{
+background-image:url("https://images.unsplash.com/photo-1555939594-58d7cb561ad1");
+background-size:cover;
+background-position:center;
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+position:relative;
+}
+
+header::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.65);
+}
+
+.hero{
+position:relative;
+max-width:900px;
+padding:40px;
+}
+
+h1{
+font-family:'Playfair Display', serif;
+font-size:70px;
+margin-bottom:10px;
+color:#d4af37;
+letter-spacing:2px;
+}
+
+.subtitle{
+font-size:22px;
+margin-bottom:20px;
+}
+
+.rating{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#d4af37;
+color:black;
+padding:16px 32px;
+margin:10px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+font-size:16px;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:80px 20px;
+}
+
+h2{
+text-align:center;
+font-family:'Playfair Display', serif;
+font-size:38px;
+margin-bottom:40px;
+color:#d4af37;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1b1b1b;
+padding:25px;
+border-radius:10px;
+}
+
+.review{
+background:#1b1b1b;
+padding:25px;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>Don Juan Plazuela</h1>
+
+<p class="subtitle">Restaurante Peruano en Chiclayo</p>
+
+<p class="rating">⭐ 4.9 en Google · Más de 1500 reseñas</p>
+
+<a class="btn" href="tel:923657673">📞 Llamar ahora</a>
+
+<a class="btn" href="#menu">🍽️ Ver menú</a>
+
+</div>
+
+</header>
+
+
+<section id="menu">
+
+<h2>Menú</h2>
+
+<div class="menu">
+
+<div class="card">
+<h3>Ceviches</h3>
+<p>Ceviche clásico</p>
+<p>Ceviche mixto</p>
+<p>Ceviche de toyo</p>
+</div>
+
+<div class="card">
+<h3>Arroces</h3>
+<p>Arroz con mariscos</p>
+<p>Arroz con pato</p>
+<p>Chaufa de mariscos</p>
+</div>
+
+<div class="card">
+<h3>Especialidades</h3>
+<p>Ronda Don Juan</p>
+<p>Dúo ceviche con arroz con mariscos</p>
+</div>
+
+<div class="card">
+<h3>Bebidas</h3>
+<p>Chicha morada</p>
+<p>Maracuyá</p>
+<p>Gaseosas</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Reseñas</h2>
+
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐  
+Excelente lugar para disfrutar de un buen ceviche o arroz con pato.
+</div>
+
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐  
+La comida es deliciosa y el ambiente muy agradable.
+</div>
+
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐  
+Uno de los restaurantes mejor valorados de Chiclayo.
+</div>
+
+</section>
+
+
+<section style="text-align:center">
+
+<h2>Ubicación</h2>
+
+<p>📍 Elías Aguirre 110, Chiclayo</p>
+
+<p>📞 923 657 673</p>
+
+<a class="btn" href="tel:923657673">Reservar mesa</a>
+
+</section>
+
+
+<footer>
+
+<p>© Don Juan Plazuela – Chiclayo</p>
+
+</footer>
+
+</body>
+</html>
